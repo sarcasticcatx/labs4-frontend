@@ -11,7 +11,6 @@ import {
     Typography,
 } from '@mui/material';
 
-// Static enum list (matching your backend Category enum)
 const CATEGORY_ENUM = [
     { name: 'Room' },
     { name: 'House' },

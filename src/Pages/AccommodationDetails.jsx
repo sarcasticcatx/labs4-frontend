@@ -31,7 +31,7 @@ export default function AccommodationDetails() {
         setLoading(false);
       });
   }, [id]);
-// smeniv tuka accommodations vo accommodation
+
   const handleDelete = async () => {
     if (window.confirm("Are you sure you want to delete this accommodation?")) {
       try {

@@ -14,7 +14,7 @@ const TempReservationForm = () => {
   const [accommodations, setAccommodations] = useState([]);
 
 
-  const userId = 1; // Static user for now
+  const userId = 1; 
 
   useEffect(() => {
     accommodationRepo.findAll()
@@ -34,7 +34,7 @@ const TempReservationForm = () => {
         start,
         end,
       };
-      await accommodationRepo.addTempReservation(payload); // Make sure this function exists in your repo
+      await accommodationRepo.addTempReservation(payload); 
       setSuccess("Reservation successfully added.");
       setAccommodationId('');
       setStart('');

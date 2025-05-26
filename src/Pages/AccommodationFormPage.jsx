@@ -14,7 +14,7 @@ import {
 import { useNavigate, useParams } from 'react-router-dom';
 import {accommodationRepo} from '../repository/accommodationRepo.js';
 
-// Static enum values from your backend
+
 const CATEGORY_ENUM = ['Room', 'House', 'Flat', 'Apartment', 'Hotel', 'Motel'];
 
 const AccommodationFormPage = () => {

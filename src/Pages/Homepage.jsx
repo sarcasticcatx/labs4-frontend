@@ -1,6 +1,5 @@
 
 import { Box, Container, Typography } from "@mui/material";
-import AccommodationCard from "../Components/Cards/AccommodationCard";
 import Navbar from "../Components/Navbar/Navbar";
 
 export default function Homepage() {
