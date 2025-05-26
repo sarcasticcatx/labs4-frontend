@@ -23,7 +23,7 @@
 
 //   const handleDelete = async (id) => {
 //     try {
-//       await accommodationRepo.deleteTempReservation(id); // make sure this is implemented if needed
+//       await accommodationRepo.deleteTempReservation(id);
 //       fetchReservations();
 //     } catch {
 //       setError("Failed to delete reservation.");
@@ -32,7 +32,7 @@
 
 //   const handleClearAll = async () => {
 //     try {
-//       await accommodationRepo.clearTempReservations(userId); // implement this in accommodationRepo if not present
+//       await accommodationRepo.clearTempReservations(userId); 
 //       fetchReservations();
 //     } catch {
 //       setError("Failed to clear reservations.");
@@ -41,7 +41,7 @@
 
 //   const handleReserveAll = async () => {
 //     try {
-//       await accommodationRepo.reserveAllTemp(userId); // implement this if using reserve-all
+//       await accommodationRepo.reserveAllTemp(userId); 
 //       fetchReservations();
 //     } catch {
 //       setError("Failed to reserve all.");
